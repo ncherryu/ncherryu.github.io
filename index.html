@@ -5,32 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>김그렙의 포트폴리오</h1>
-    <p>안녕하세요,<br>
-        늘 고민하는 개발자 김그렙입니다.<br>
+    <hr>
+    <p class="description">안녕하세요,<br>
+        늘 고민하는 개발자 <b>김그렙</b>입니다.<br>
         제 프로젝트들을 소개합니다.
     </p>
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Tennis Image">
-        <p>테니스 마켓</p>
-        <button>자세히 보러가기</button>
+    <div class="card_list">
+        <div class="card">
+            <div class="img_box">
+                <img class="card_img"
+                    src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Tennis Image">
+            </div>
+            <p class="card_title">테니스 마켓</p>
+            <button class="card_btn">자세히 보러가기</button>
+        </div>
+        <div class="card">
+            <div class="img_box">
+                <img class="card_img"
+                    src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Book Image">
+            </div>
+            <p class="card_title">도서 구매 사이트</p>
+            <button class="card_btn">자세히 보러가기</button>
+        </div>
+        <div class="card">
+            <div class="img_box">
+                <img class="card_img"
+                    src="https://images.unsplash.com/photo-1453090927415-5f45085b65c0?q=80&w=1696&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Show Image">
+            </div>
+            <p class="card_title">공연 예매 사이트</p>
+            <button class="card_btn">자세히 보러가기</button>
+        </div>
     </div>
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Book Image">
-        <p>도서 구매 사이트</p>
-        <button>자세히 보러가기</button>
-    </div>
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1453090927415-5f45085b65c0?q=80&w=1696&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Show Image">
-        <p>공연 예매 사이트</p>
-        <button>자세히 보러가기</button>
-    </div>
+
 </body>
 
 </html>
